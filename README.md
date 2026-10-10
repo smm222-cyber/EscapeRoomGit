@@ -1,5 +1,5 @@
 # Escape Room 3D
-Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unity.
+Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unity 3D.
 ## Integrantes
 - Liz Candia
 - Nayara Hurtado
