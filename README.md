@@ -13,5 +13,5 @@ Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unit
 - Feature_Animation
 - Feature_Puzzle
 ## Objetivo
-Explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de 
+Escape Room: El jugador tiene que explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de 
 salida.
