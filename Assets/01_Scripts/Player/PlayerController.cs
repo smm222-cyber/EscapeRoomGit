@@ -4,10 +4,14 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
 
-    private void Update()
+private void Update()
+{
+    Move();
+    if (Input.GetKeyDown(KeyCode.E))
     {
-        Move();
+        Debug.Log("Interaction key pressed");
     }
+}
 
     private void Move()
     {
