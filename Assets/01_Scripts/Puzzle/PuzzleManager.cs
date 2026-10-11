@@ -1,28 +1,33 @@
-   using UnityEngine;
+using UnityEngine;
 
-   public class PuzzleManager : MonoBehaviour
-   {
-       [SerializeField] private string correctCode = "1234";
-       [SerializeField] private ChestController chest;
+public class PuzzleManager : MonoBehaviour
+{
+    [SerializeField] private string[] validCodes = { "1234" };
+    [SerializeField] private int maxAttempts = 3;
+    [SerializeField] private ChestController chest;
 
-       public bool ValidateCode(string code)
-       {
-           bool valid = code == correctCode;
+    private int attempts;
 
-           if (valid)
-           {
-               Debug.Log("Código correcto.");
+    public bool ValidateCode(string code)
+    {
+        attempts++;
 
-               if (chest != null)
-               {
-                   chest.Unlock();
-               }
-           }
-           else
-           {
-               Debug.Log("Código incorrecto.");
-           }
+        foreach (string valid in validCodes)
+        {
+            if (code == valid)
+            {
+                Debug.Log("Código correcto.");
 
-           return valid;
-       }
-   }
+                if (chest != null)
+                {
+                    chest.Unlock();
+                }
+
+                return true;
+            }
+        }
+
+        Debug.Log("Código incorrecto. Intento " + attempts + " de " + maxAttempts);
+        return false;
+    }
+}
