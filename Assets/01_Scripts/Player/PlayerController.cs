@@ -4,11 +4,15 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
 
-   private void Update()
-   {
-       Move();
-       Debug.Log("Movement system active");
-   }
+    private void Update()
+    {
+        Move();
+        Debug.Log("Movement system active");
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("Interaction key pressed");
+        }
+    }
 
     private void Move()
     {
