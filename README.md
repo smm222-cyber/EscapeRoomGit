@@ -1,10 +1,10 @@
 # Escape Room 3D
 Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unity 3D.
 ## Integrantes
-- Liz Candia
-- Nayara Hurtado
-- Mauricio Linaja
-- Monserrat Salazar
+- Liz Candia (Integrante A)
+- Nayara Hurtado (Integrante B)
+- Mauricio Linaja (Integrante C)
+- Monserrat Salazar (Integrante D)
 ## Ramas
 - main
 - Dev
@@ -13,5 +13,5 @@ Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unit
 - Feature_Animation
 - Feature_Puzzle
 ## Objetivo
-Explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de 
-salida.
+Escape Room 3D: El jugador tiene que explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de salida.
+## '' 
