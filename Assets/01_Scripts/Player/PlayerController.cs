@@ -2,8 +2,8 @@ using UnityEngine;
 // Control principal del jugador
 public class PlayerController : MonoBehaviour
 {
-    public float speed = 6f;
-
+    public float speed = 7f;
+    
     private void Update()
     {
         Move();
