@@ -1,5 +1,5 @@
 using UnityEngine;
-
+// Control principal del jugador
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
