@@ -19,4 +19,6 @@
 
            Debug.Log("Puerta abierta. ¡Escape completado!");
        }
+        [ContextMenu("Probar Interact (prueba)")]
+        private void TestInteract() { Interact(); }
    }

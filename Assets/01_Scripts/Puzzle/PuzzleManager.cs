@@ -30,4 +30,6 @@ public class PuzzleManager : MonoBehaviour
         Debug.Log("Código incorrecto. Intento " + attempts + " de " + maxAttempts);
         return false;
     }
+    [ContextMenu("Probar codigo 1234 (prueba)")]
+    private void TestCorrectCode() { ValidateCode("1234"); }
 }
