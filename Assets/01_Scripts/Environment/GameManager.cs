@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
             return;
         }
         Instance = this;
-        // INIT_POINT
+        Initialize();
     }
 
     public void Initialize()
