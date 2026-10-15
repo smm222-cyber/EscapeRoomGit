@@ -10,6 +10,8 @@ public class PuzzleManager : MonoBehaviour
 
     public bool ValidateCode(string code)
     {
+        if (string.IsNullOrWhiteSpace(code)) return false;
+        code = code.Trim();
         attempts++;
 
         foreach (string valid in validCodes)
