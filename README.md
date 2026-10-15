@@ -12,6 +12,7 @@ Proyecto colaborativo de laboratorio de Git + GitHub + Visual Studio Code + Unit
 - Feature_Interaction
 - Feature_Animation
 - Feature_Puzzle
+- Feature_Fix
 ## Objetivo
 Escape Room 3D: El jugador tiene que explorar una habitación, resolver un código, abrir un cofre, obtener una llave y abrir la puerta de salida.
 ## '' 
